@@ -1,0 +1,218 @@
+@charset "UTF-8";
+/* **************************************** */
+/* description : 미래유망 온다쌤
+/* keywords : 온다프로필, 온다자기소개
+/* author : 온다 */ 
+/* create Date : 2024-09-19
+/* update Date : 2024-09-19
+/* **************************************** */
+
+/* @import url(파일명.css); */
+
+/* 윈도우 사이즈 출력 */
+#resolution{position:fixed;left:50%;top:50%;transform:translate(-50%, -50%);font-size:60px;color:red;}
+
+header{border-bottom:1px solid #ccc;}
+
+/* ********************************************************* */
+/* 반응형 Mobile 우선 그리드 시스템
+/* ********************************************************* */
+@media screen and (max-width:576px){
+
+    /* **************************************** */  
+    /* description : 미래유망 온다쌤
+    /* keywords : 온다프로필, 온다자기소개
+    /* author : 온다 */ 
+    /* create Date : 2024-09-19
+    /* update Date : 2024-09-19
+    /* **************************************** */
+
+    /* 컨텐츠 레이아웃 그리드 시스템(.custom-innerWrap) */
+    .custom-innerWrap{
+        width: 100%;
+        min-width:320px;
+        padding:0 20px;
+    }
+}
+   
+/* ********************************************************* */
+/* 반응형 Tablet(Tablet Vertical/세로모드)
+/* ********************************************************* */
+@media screen and (min-width:577px) and (max-width:1199px){
+
+    /* **************************************** */
+    /* description : 미래유망 온다쌤
+    /* keywords : 온다프로필, 온다자기소개
+    /* author : 온다 */ 
+    /* create Date : 2024-09-19
+    /* update Date : 2024-09-19
+    /* **************************************** */
+
+    .custom-innerWrap{
+        width: 960px;
+        margin:0 auto;
+        padding:0 20px;
+    }
+}
+   
+/* ********************************************************* */
+/* 반응형 PC(Tablet Horizontal/가로모드)
+/* ********************************************************* */
+@media screen and (min-width:1200px){
+
+    /* **************************************** */
+    /* description : 미래유망 온다쌤
+    /* keywords : 온다프로필, 온다자기소개
+    /* author : 온다 */ 
+    /* create Date : 2024-09-19
+    /* update Date : 2024-09-19
+    /* **************************************** */
+    
+    .custom-innerWrap{
+        width: 1140px;
+        margin:0 auto;
+    }
+}
+
+nav{
+    height: 56px;
+}
+
+h1 span{
+    font-size: 30px;
+    line-height: 30px;
+}
+
+div a{
+    font-size: 25px;
+}
+
+#name{
+    color: gold;
+    font-size: 40PX;
+}
+
+#name2{
+    font-size: 30px;
+}
+
+#name3{
+    font-size: 30px;
+}
+
+#picture{
+    margin-top: 60px;
+    padding-right: 30px;
+}
+
+#writing{
+    font-size: 20px;
+    color: #b1b1b194;
+}
+
+#gle{
+    margin-top: 60px;
+}
+
+.customhidden{
+    position: absolute;
+    left: -999999px;
+}
+#photoshop{
+    margin-top: 90px;
+    margin-left: 70px;
+}
+
+#pog{
+    font-size: 27px;
+    margin-top: 130px;
+}
+
+#Pogl{
+    font-size: 33px;
+}
+#dark1{
+    color: white;
+    font-size: 25px;
+}
+
+#dark2{
+    color: white;
+}
+
+#figl{
+    display: flex;
+    justify-content: center;
+}
+
+#figma{
+    margin-top: 100px;
+    margin-left:100px;
+}
+#plg1{
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+#plg2{
+    margin-left: 300px;
+}
+
+#ws{
+    background: url(/img/html\,css\,js.png) no-repeat center;
+    /* opacity: 0.5; */
+}
+
+#wsl{   
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    margin: 200px 0;
+    z-index: 9999;
+}
+
+.ws-inner{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+#wgsi{
+    font-size: 50px;
+    margin-left: 400px;
+}
+
+#wgsi span{
+    color: gold;
+}
+
+#hi{
+    border-radius: 70%;
+}
+
+#hima{
+    border-radius: 70%;
+}
+
+#pghi{
+    border-radius: 70%;
+}
+
+#main-wg{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+#smartphon{
+    margin-left: 280px;
+}
+
+#wggl{
+    font-size: 20px;
+}
+
+#name4{
+    font-size: 30px;
+    font-weight: bold;
+}
