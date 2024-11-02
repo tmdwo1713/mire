@@ -107,7 +107,7 @@ div a{
 
 #writing{
     font-size: 20px;
-    color: #b1b1b194;
+    color: rgb(17, 17, 133);
 }
 
 #gle{
@@ -118,18 +118,28 @@ div a{
     position: absolute;
     left: -999999px;
 }
-#photoshop{
+#python{
     margin-top: 90px;
     margin-left: 70px;
 }
 
+.python-g{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.html-g{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
 #pog{
-    font-size: 27px;
     margin-top: 130px;
+    font-size: 20px;
 }
 
 #Pogl{
-    font-size: 33px;
+    font-size: 40px;
 }
 #dark1{
     color: white;
@@ -145,17 +155,20 @@ div a{
     justify-content: center;
 }
 
-#figma{
+#css{
     margin-top: 100px;
     margin-left:100px;
 }
 #plg1{
     margin-top: 100px;
     margin-left: 300px;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 #plg2{
     margin-left: 300px;
+    font-size: 20px;
 }
 
 #ws{
@@ -179,7 +192,14 @@ div a{
 
 #wgsi{
     font-size: 50px;
-    margin-left: 400px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+}
+
+.wgsi-img{
+    display: flex;
+    margin-bottom: 100px;
+    text-align: center;
 }
 
 #wgsi span{
@@ -205,11 +225,13 @@ div a{
 }
 
 #smartphon{
-    margin-left: 280px;
+    margin-left: 180px;
+    margin-top: 30px;
 }
 
 #wggl{
     font-size: 20px;
+    padding-top: 70px;
 }
 
 #name4{
