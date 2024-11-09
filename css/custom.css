@@ -33,6 +33,28 @@ header{border-bottom:1px solid #ccc;}
         min-width:320px;
         padding:0 20px;
     }
+
+    #gle{
+        text-align: center;
+    }
+
+    #pog{
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    #picture{
+        margin-left: 50px;
+    }
+
+    #plg1{
+        text-align: center;
+    }
+
+    #plg2{
+        text-align: center;
+        color: white;
+    }
 }
    
 /* ********************************************************* */
@@ -53,6 +75,48 @@ header{border-bottom:1px solid #ccc;}
         margin:0 auto;
         padding:0 20px;
     }
+
+    #gle{
+        text-align: center;
+    }
+    #picture{
+        margin-left: 200px;
+    }
+
+    #pog{
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    #plg1{
+        text-align: center;
+    }
+
+    #plg2{
+        text-align: center;
+        color: white;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
    
 /* ********************************************************* */
@@ -72,6 +136,11 @@ header{border-bottom:1px solid #ccc;}
         width: 1140px;
         margin:0 auto;
     }
+}
+
+#headerlo{
+    background-color: #ccc;
+    position: fixed;
 }
 
 nav{
@@ -120,7 +189,7 @@ div a{
 }
 #python{
     margin-top: 90px;
-    margin-left: 70px;
+    margin-bottom: 50px;
 }
 
 .python-g{
@@ -141,38 +210,16 @@ div a{
 #Pogl{
     font-size: 40px;
 }
-#dark1{
-    color: white;
-    font-size: 25px;
-}
-
-#dark2{
-    color: white;
-}
 
 #figl{
     display: flex;
     justify-content: center;
 }
 
-#css{
-    margin-top: 100px;
-    margin-left:100px;
-}
-#plg1{
-    margin-top: 100px;
-    margin-left: 300px;
-    font-size: 40px;
-    font-weight: bold;
-}
-
-#plg2{
-    margin-left: 300px;
-    font-size: 20px;
-}
 
 #ws{
-    background: url(/img/html\,css\,js.png) no-repeat center;
+    background: url(/img/mire.jpg) no-repeat center;
+    background-size: cover;
     /* opacity: 0.5; */
 }
 
@@ -182,6 +229,11 @@ div a{
     justify-content: center;
     margin: 200px 0;
     z-index: 9999;
+}
+
+#wsl span{
+    color: gold;
+    font-size: 40px;
 }
 
 .ws-inner{
@@ -230,11 +282,72 @@ div a{
 }
 
 #wggl{
-    font-size: 20px;
+    height: 640px;
     padding-top: 70px;
+    text-align: center;
+}
+
+#wggl span{
+    font-size: 70px;
+    padding-bottom: 50px;
+}
+
+.prj{
+    display: flex;
+    justify-content: space-between;
+}
+
+#wggl .prj .prj1{
+    font-size: 40px;
+    width: 30%;
+    border: 1px black solid;
+    background: gold;
+}
+
+#wggl .prj .prj1 div{
+    font-size: 30px;
+    border: 1px black solid;
+    background-color: white;
+    color: gold;
+}
+
+#wggl .prj .prj2{
+    font-size: 40px;
+    width: 30%;
+    border: 1px black solid;
+    background: gold;
+}
+
+#wggl .prj .prj2 div{
+    font-size: 30px;
+    border: 1px black solid;
+    background-color: white;
+    color: gold;
+}
+
+#wggl .prj .prj3{
+    font-size: 40px;
+    width: 30%;
+    border: 1px black solid;
+    background: gold;
+}
+
+#wggl .prj .prj3 div{
+    font-size: 30px;
+    border: 1px black solid;
+    background-color: white;
+    color: gold;
 }
 
 #name4{
     font-size: 30px;
     font-weight: bold;
+}
+
+footer{
+    background: #ccc;
+    margin-bottom: -50PX;
+}
+#plg1{
+    margin-top: 50px;
 }
