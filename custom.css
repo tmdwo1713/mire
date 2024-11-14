@@ -51,7 +51,16 @@ header{border-bottom:1px solid #ccc;}
         text-align: center;
     }
 
+    #plg3{
+        text-align: center;
+    }
+
     #plg2{
+        text-align: center;
+        color: white;
+    }
+
+    #plg4{
         text-align: center;
         color: white;
     }
@@ -92,30 +101,19 @@ header{border-bottom:1px solid #ccc;}
         text-align: center;
     }
 
+    #plg3{
+        text-align: center;
+    }
+
     #plg2{
         text-align: center;
         color: white;
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    #plg4{
+        text-align: center;
+        color: white;
+    }
 
 }
    
@@ -192,6 +190,10 @@ div a{
     margin-bottom: 50px;
 }
 
+#html{
+    padding: 50px;
+}
+
 .python-g{
     margin-top: 50px;
     font-size: 30px;
@@ -207,7 +209,13 @@ div a{
     font-size: 20px;
 }
 
+#htmll{
+    margin-top: 130px;
+    font-size: 20px;
+}
+
 #Pogl{
+    margin-top: 30px;
     font-size: 40px;
 }
 
@@ -231,7 +239,7 @@ div a{
     z-index: 9999;
 }
 
-#wsl span{
+#wsl div span{
     color: gold;
     font-size: 40px;
 }
@@ -287,7 +295,7 @@ div a{
     text-align: center;
 }
 
-#wggl span{
+#wggl h2 span{
     font-size: 70px;
     padding-bottom: 50px;
 }
@@ -349,5 +357,9 @@ footer{
     margin-bottom: -50PX;
 }
 #plg1{
+    margin-top: 50px;
+}
+
+#htmll{
     margin-top: 50px;
 }
