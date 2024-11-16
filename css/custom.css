@@ -1,10 +1,10 @@
 @charset "UTF-8";
 /* **************************************** */
-/* description : 미래유망 온다쌤
-/* keywords : 온다프로필, 온다자기소개
-/* author : 온다 */
+/* description : 미래유망 이승재
+/* keywords : 승재프로필, 승재자기소개
+/* author : 승재 */
 /* create Date : 2024-09-19
-/* update Date : 2024-09-19
+/* update Date : 2024-11-16
 /* **************************************** */
 
 /* @import url(파일명.css); */
@@ -40,11 +40,11 @@ header {
 @media screen and (max-width:576px) {
 
     /* **************************************** */
-    /* description : 미래유망 온다쌤
-    /* keywords : 온다프로필, 온다자기소개
-    /* author : 온다 */
+    /* description : 미래유망 이승재
+    /* keywords : 승재프로필, 승재자기소개
+    /* author : 승재 */
     /* create Date : 2024-09-19
-    /* update Date : 2024-09-19
+    /* update Date : 2024-11-16
     /* **************************************** */
 
     /* 컨텐츠 레이아웃 그리드 시스템(.custom-innerWrap) */
@@ -137,11 +137,11 @@ header {
 @media screen and (min-width:577px) and (max-width:1199px) {
 
     /* **************************************** */
-    /* description : 미래유망 온다쌤
-    /* keywords : 온다프로필, 온다자기소개
-    /* author : 온다 */
-    /* create Date : 2024-09-19
-    /* update Date : 2024-09-19
+    /* description : 미래유망 이승재
+    /* keywords : 승재프로필, 승재자기소개
+    /* author : 승재 */
+    /* create Date : 2024-11-16
+    /* update Date : 2024-11-16
     /* **************************************** */
 
     .custom-innerWrap {
@@ -250,11 +250,11 @@ header {
 @media screen and (min-width:1200px) {
 
     /* **************************************** */
-    /* description : 미래유망 온다쌤
-    /* keywords : 온다프로필, 온다자기소개
-    /* author : 온다 */
+    /* description : 미래유망 이승재
+    /* keywords : 승재프로필, 승재자기소개
+    /* author : 승재 */
     /* create Date : 2024-09-19
-    /* update Date : 2024-09-19
+    /* update Date : 2024-11-16
     /* **************************************** */
 
     .custom-innerWrap {
