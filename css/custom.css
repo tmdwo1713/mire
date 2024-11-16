@@ -2,7 +2,7 @@
 /* **************************************** */
 /* description : 미래유망 온다쌤
 /* keywords : 온다프로필, 온다자기소개
-/* author : 온다 */ 
+/* author : 온다 */
 /* create Date : 2024-09-19
 /* update Date : 2024-09-19
 /* **************************************** */
@@ -10,96 +10,221 @@
 /* @import url(파일명.css); */
 
 /* 윈도우 사이즈 출력 */
-#resolution{position:fixed;left:50%;top:50%;transform:translate(-50%, -50%);font-size:60px;color:red;}
+#resolution {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: red;
+}
 
-header{border-bottom:1px solid #ccc;}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+header {
+    border-bottom: 1px solid #ccc;
+}
+
+#headerlo {
+    background-color: #ccc;
+    position: fixed;
+    z-index: 10;
+}
 
 /* ********************************************************* */
 /* 반응형 Mobile 우선 그리드 시스템
 /* ********************************************************* */
-@media screen and (max-width:576px){
+@media screen and (max-width:576px) {
 
-    /* **************************************** */  
+    /* **************************************** */
     /* description : 미래유망 온다쌤
     /* keywords : 온다프로필, 온다자기소개
-    /* author : 온다 */ 
+    /* author : 온다 */
     /* create Date : 2024-09-19
     /* update Date : 2024-09-19
     /* **************************************** */
 
     /* 컨텐츠 레이아웃 그리드 시스템(.custom-innerWrap) */
-    .custom-innerWrap{
+    .custom-innerWrap {
         width: 100%;
-        min-width:320px;
-        padding:0 20px;
+        min-width: 320px;
+        padding: 0 20px;
     }
 
-    #gle{
+    #ws {
+        background: url(../img/mire.jpg) no-repeat center;
+        background-size: cover;
+        /* opacity: 0.5; */
+    }
+    
+    #wsl {
+        color: white;
+        font-size: 25px;
+        justify-content: center;
+        margin: 200px 0;
+        z-index: 9999;
+    }
+    
+    #wsl span {
+        color: gold;
+        font-size: 40px;
+    }
+    
+    .ws-inner {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    #gle {
         text-align: center;
     }
 
-    #pog{
+    #pog {
         text-align: center;
         margin-bottom: 80px;
     }
 
-    #picture{
-        margin-left: 50px;
-    }
-
-    #plg1{
+    #plg1 {
         text-align: center;
     }
 
-    #plg2{
+    #plg2 {
         text-align: center;
         color: white;
     }
+
+    #picture {
+        text-align: center;
+        width: 320px;
+        height: 320px;
+        padding: 0;
+    }
+    #wggl {
+        height: 900px;
+        padding-top: 70px;
+        text-align: center;
+    }
+    
+    #wggl span {
+        font-size: 70px;
+        padding-bottom: 50px;
+    }
+    
+    .prj {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 0;
+    }
+    
+    footer {
+        background: #ccc;
+        margin-bottom: -50PX;
+    }
+
+    .foot-gl{
+        font-size: 11px;
+    }
 }
-   
+
 /* ********************************************************* */
 /* 반응형 Tablet(Tablet Vertical/세로모드)
 /* ********************************************************* */
-@media screen and (min-width:577px) and (max-width:1199px){
+@media screen and (min-width:577px) and (max-width:1199px) {
 
     /* **************************************** */
     /* description : 미래유망 온다쌤
     /* keywords : 온다프로필, 온다자기소개
-    /* author : 온다 */ 
+    /* author : 온다 */
     /* create Date : 2024-09-19
     /* update Date : 2024-09-19
     /* **************************************** */
 
-    .custom-innerWrap{
+    .custom-innerWrap {
         width: 960px;
-        margin:0 auto;
-        padding:0 20px;
+        margin: 0 auto;
+        padding: 0 20px;
     }
 
-    #gle{
+    #ws {
+        background: url(../img/mire.jpg) no-repeat center;
+        background-size: cover;
+        /* opacity: 0.5; */
+    }
+    
+    #wsl {
+        color: white;
+        font-size: 25px;
+        justify-content: center;
+        margin: 200px 0;
+        z-index: 9999;
+    }
+
+    #picture{
+        text-align: center;
+        padding: 3em;
+    }
+    
+    #wsl span {
+        color: gold;
+        font-size: 40px;
+    }
+    
+    .ws-inner {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+
+    #gle {
         text-align: center;
     }
-    #picture{
-        margin-left: 200px;
-    }
 
-    #pog{
+    #pog {
         text-align: center;
         margin-bottom: 80px;
     }
 
-    #plg1{
+    #plg1 {
         text-align: center;
     }
 
-    #plg2{
+    #plg2 {
         text-align: center;
         color: white;
     }
 
+    #wggl {
+        z-index: 0;
+        height: 700px;
+        padding-top: 70px;
+        text-align: center;
+    }
+    
+    #wggl span {
+        font-size: 70px;
+        padding-bottom: 50px;
+    }
+    
+    .prj {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 0;
+    }
 
+    footer {
+        background: #ccc;
+        margin-bottom: -50PX;
+    }
 
-
+    #python{
+        padding: 3em;
+    }
 
 
 
@@ -118,236 +243,194 @@ header{border-bottom:1px solid #ccc;}
 
 
 }
-   
+
 /* ********************************************************* */
 /* 반응형 PC(Tablet Horizontal/가로모드)
 /* ********************************************************* */
-@media screen and (min-width:1200px){
+@media screen and (min-width:1200px) {
 
     /* **************************************** */
     /* description : 미래유망 온다쌤
     /* keywords : 온다프로필, 온다자기소개
-    /* author : 온다 */ 
+    /* author : 온다 */
     /* create Date : 2024-09-19
     /* update Date : 2024-09-19
     /* **************************************** */
-    
-    .custom-innerWrap{
+
+    .custom-innerWrap {
         width: 1140px;
-        margin:0 auto;
+        margin: 0 auto;
+    }
+    
+    nav {
+        height: 56px;
+    }
+    
+    h1 span {
+        font-size: 30px;
+        line-height: 30px;
+    }
+    
+    div a {
+        font-size: 25px;
+    }
+    
+    #name {
+        color: gold;
+        font-size: 40PX;
+    }
+    
+    #name2 {
+        font-size: 30px;
+    }
+    
+    #name3 {
+        font-size: 30px;
+    }
+    
+    #writing {
+        font-size: 20px;
+        color: rgb(17, 17, 133);
+    }
+    
+    #gle {
+        height: 470px;
+        margin-top: 60px;
+    }
+    
+    .customhidden {
+        position: absolute;
+        left: -999999px;
+    }
+
+    #picture{
+        text-align: center;
+        padding: 3em;
+    }
+    
+    #python {
+        margin-top: 90px;
+        margin-bottom: 50px;
+    }
+    
+    .python-g {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    
+    .html-g {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    
+    #pog {
+        margin-top: 130px;
+        font-size: 20px;
+    }
+    
+    #Pogl {
+        font-size: 40px;
+    }
+    
+    #figl {
+        display: flex;
+        justify-content: center;
+    }
+    
+    
+    #ws {
+        background: url(../img/mire.jpg) no-repeat center;
+        background-size: cover;
+        /* opacity: 0.5; */
+    }
+    
+    #wsl {
+        color: white;
+        font-size: 25px;
+        justify-content: center;
+        margin: 200px 0;
+        z-index: 9999;
+    }
+    
+    #wsl span {
+        color: gold;
+        font-size: 40px;
+    }
+    
+    .ws-inner {
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+    }
+    
+    #wgsi {
+        font-size: 50px;
+        margin-left: 300px;
+        margin-bottom: 50px;
+    }
+    
+    .wgsi-img {
+        display: flex;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    
+    #wgsi span {
+        color: gold;
+    }
+    
+    #hi {
+        border-radius: 70%;
+    }
+    
+    #hima {
+        border-radius: 70%;
+    }
+    
+    #pghi {
+        border-radius: 70%;
+    }
+    
+    #main-wg {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+    
+    #smartphon {
+        margin-left: 180px;
+        margin-top: 30px;
+    }
+    
+    #wggl {
+        z-index: 0;
+        height: 600px;
+        padding-top: 70px;
+        text-align: center;
+    }
+    
+    #wggl span {
+        font-size: 70px;
+        padding-bottom: 50px;
+    }
+    
+    .prj {
+        display: flex;
+        justify-content: space-between;
+        z-index: 0;
+    }
+    
+    #name4 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    footer {
+        background: #ccc;
+    }
+    
+    #plg1 {
+        margin-top: 50px;
     }
 }
 
-#headerlo{
-    background-color: #ccc;
-    position: fixed;
-}
-
-nav{
-    height: 56px;
-}
-
-h1 span{
-    font-size: 30px;
-    line-height: 30px;
-}
-
-div a{
-    font-size: 25px;
-}
-
-#name{
-    color: gold;
-    font-size: 40PX;
-}
-
-#name2{
-    font-size: 30px;
-}
-
-#name3{
-    font-size: 30px;
-}
-
-#picture{
-    margin-top: 60px;
-    padding-right: 30px;
-}
-
-#writing{
-    font-size: 20px;
-    color: rgb(17, 17, 133);
-}
-
-#gle{
-    margin-top: 60px;
-}
-
-.customhidden{
-    position: absolute;
-    left: -999999px;
-}
-#python{
-    margin-top: 90px;
-    margin-bottom: 50px;
-}
-
-.python-g{
-    margin-top: 50px;
-    font-size: 30px;
-}
-
-.html-g{
-    margin-top: 50px;
-    font-size: 30px;
-}
-
-#pog{
-    margin-top: 130px;
-    font-size: 20px;
-}
-
-#Pogl{
-    font-size: 40px;
-}
-
-#figl{
-    display: flex;
-    justify-content: center;
-}
-
-
-#ws{
-    background: url(../img/mire.jpg) no-repeat center;
-    background-size: cover;
-    /* opacity: 0.5; */
-}
-
-#wsl{   
-    color: white;
-    font-size: 25px;
-    justify-content: center;
-    margin: 200px 0;
-    z-index: 9999;
-}
-
-#wsl span{
-    color: gold;
-    font-size: 40px;
-}
-
-.ws-inner{
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-}
-
-#wgsi{
-    font-size: 50px;
-    margin-left: 300px;
-    margin-bottom: 50px;
-}
-
-.wgsi-img{
-    display: flex;
-    margin-bottom: 100px;
-    text-align: center;
-}
-
-#wgsi span{
-    color: gold;
-}
-
-#hi{
-    border-radius: 70%;
-}
-
-#hima{
-    border-radius: 70%;
-}
-
-#pghi{
-    border-radius: 70%;
-}
-
-#main-wg{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-}
-
-#smartphon{
-    margin-left: 180px;
-    margin-top: 30px;
-}
-
-#wggl{
-    height: 640px;
-    padding-top: 70px;
-    text-align: center;
-}
-
-#wggl span{
-    font-size: 70px;
-    padding-bottom: 50px;
-}
-
-.prj{
-    display: flex;
-    justify-content: space-between;
-}
-
-#wggl .prj .prj1{
-    font-size: 40px;
-    width: 30%;
-    border: 1px black solid;
-    background: gold;
-}
-
-#wggl .prj .prj1 div{
-    font-size: 30px;
-    border: 1px black solid;
-    background-color: white;
-    color: gold;
-}
-
-#wggl .prj .prj2{
-    font-size: 40px;
-    width: 30%;
-    border: 1px black solid;
-    background: gold;
-}
-
-#wggl .prj .prj2 div{
-    font-size: 30px;
-    border: 1px black solid;
-    background-color: white;
-    color: gold;
-}
-
-#wggl .prj .prj3{
-    font-size: 40px;
-    width: 30%;
-    border: 1px black solid;
-    background: gold;
-}
-
-#wggl .prj .prj3 div{
-    font-size: 30px;
-    border: 1px black solid;
-    background-color: white;
-    color: gold;
-}
-
-#name4{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-footer{
-    background: #ccc;
-    margin-bottom: -50PX;
-}
-#plg1{
-    margin-top: 50px;
-}
